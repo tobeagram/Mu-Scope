@@ -1,4 +1,4 @@
-<!--
+ <!--
 
 Rashed Karim and Tobias Whetton KCL 2016
 
@@ -83,31 +83,32 @@ The following has been heavily modified from the Boostrap portfolio template:
     </style>
 
 
+    <?php
+
+        include_once("../api/kcl/ServerLogs.php");
+        include_once("../api/kcl/XMLConfig.php");
+
+        // Read the XML config file
+
+        $specimen_type = $_GET['specimen_type']; // zoological';
+        $specimen_name = $_GET['specimen_name'];
+        $specimen_id = $_GET['specimen_id'];
+
+        $xml_config = new XMLConfig('../xml/museum.xml');
+        $specimen_data = $xml_config->GetSpecimenDataDigest($specimen_type);
+
+
+        $title = $specimen_data[$specimen_id]['title'];
+
+
+    ?>
+
     <!--Unity Integration -->
-    <link rel="shortcut icon" href="T../stl/9a46016fc7074e609b83421bdcc6c865/TemplateData/favicon.ico" />
-    <script src="../stl/9a46016fc7074e609b83421bdcc6c865/TemplateData/UnityProgress.js"></script>
+    <link rel="shortcut icon" href="../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/TemplateData/favicon.ico" />
+    <script src="../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/TemplateData/UnityProgress.js"></script>
 
 </head>
 
-<?php
-
-    include_once("../api/kcl/ServerLogs.php");
-    include_once("../api/kcl/XMLConfig.php");
-
-    // Read the XML config file
-
-    $specimen_type = $_GET['specimen_type']; // zoological';
-    $specimen_name = $_GET['specimen_name'];
-    $specimen_id = $_GET['specimen_id'];
-
-    $xml_config = new XMLConfig('../xml/museum.xml');
-    $specimen_data = $xml_config->GetSpecimenDataDigest($specimen_type);
-
-
-    $title = $specimen_data[$specimen_id]['title'];
-
-
-?>
 
 <body>
 
@@ -184,7 +185,7 @@ The following has been heavily modified from the Boostrap portfolio template:
         <!-- Stl Viewer -->
         <h3 class="text-center"><i style="color:rgba(0, 0, 0, 0.2);" class="fa fa-dot-circle-o"></i><br><br>Three Dimensional View</h3><br>
         <div class="text-center clear">
-          <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" style="max-width:100%" height="400px" width="550px"></canvas>
+          <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="400px" width="550px"></canvas>
           <br>
           <!-- Fullscreen fails to work and logo removed is cleaner -->
           <!-- <div class="logo"></div> -->
@@ -235,12 +236,12 @@ The following has been heavily modified from the Boostrap portfolio template:
       TOTAL_MEMORY: 268435456,
       errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
       compatibilitycheck: null,
-      dataUrl: "../stl/9a46016fc7074e609b83421bdcc6c865/Release/hedgehogSkullViewer.data",
-      codeUrl: "../stl/9a46016fc7074e609b83421bdcc6c865/Release/hedgehogSkullViewer.js",
-      memUrl: "../stl/9a46016fc7074e609b83421bdcc6c865/Release/hedgehogSkullViewer.mem",
+      dataUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/stl.data",
+      codeUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/stl.js",
+      memUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/stl.mem",
     };
     </script>
-    <script src="../stl/9a46016fc7074e609b83421bdcc6c865/Release/UnityLoader.js"></script>
+    <script src="../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/UnityLoader.js"></script>
 
 
     <!-- jQuery -->
