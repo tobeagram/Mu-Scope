@@ -17,6 +17,7 @@ The following template is taken from Boostrap portfolio template:
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <title>What's On at the Museum</title>
 
 
 
@@ -38,6 +39,8 @@ The following template is taken from Boostrap portfolio template:
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic' rel='stylesheet' type='text/css'>
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="../img/favicon.png"/>
 
     <style>
 
@@ -78,25 +81,22 @@ The following template is taken from Boostrap portfolio template:
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+              <button type="button" style="padding:7px 0 0 0; "class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <i class="fa fa-bars"></i>
+              </button>
                 <a class="navbar-brand page-scroll" href="../welcome">
-                      <img src="../img/KCL_logo.png" alt="KCL Logo" height="22" style="filter: invert(60%);">
+                    <img src="../img/KCL_logo.png" alt="KCL Logo" height="22">
                 </a>
                 <a class="navbar-brand" id="mls" style="color:rgba(0, 0, 0, 0.7);text-transform:uppercase;letter-spacing:0.03em;" href="../welcome">Museum <span id="of">of</span> Life Sciences</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div style="border:none;" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="../collections">collections</a>
+                        <a href="../exhibitions">exhibitions</a>
                     </li>
                     <li>
-                        <a style="color:rgba(0, 0, 0, 0.7);;" href="#">what's on</a>
+                        <a style="color:rgba(0, 0, 0, 0.7);" href="#">what's on</a>
                     </li>
                     <li>
                         <a href="../about">about</a>
@@ -120,7 +120,12 @@ The following template is taken from Boostrap portfolio template:
           </div>
         </div>
         <!-- /.row -->
-        <p class="text-center">No events at the moment, please come back later. Follow us on social media, to keep up to date:<br><br>
+        <p class="text-center">
+          <a class="twitter-timeline"  data-chrome="nofooter noborders noscrollbar transparent"
+  href="https://twitter.com/kcl_mols"
+  width="400"
+  height="500" data-link-color="#F23B3E">Tweets by the Museum</a><br>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br>
         <span class="intbut" data-dismiss="modal" style=" display:inline; padding-bottom: 30px;"><a href="#a1" id="afterarrow" style="font-size:18px;" class="btnl page-scroll"><f class="fa fa-facebook"></f> <span id="beforearrow">&nbsp;Facebook</span></a></span>
         <span class="intbut" data-dismiss="modal" style=" display:inline; padding-bottom: 30px;"><a href="#a1" id="afterarrow" style="font-size:18px;" class="btnl page-scroll"><f class="fa fa-twitter"></f> <span id="beforearrow">&nbsp;Twitter</span></a></span>
         <span class="intbut" data-dismiss="modal" style=" display:inline; padding-bottom: 30px;"><a href="#a1" id="afterarrow" style="font-size:18px;" class="btnl page-scroll"><f class="fa fa-youtube"></f> <span id="beforearrow">&nbsp;Youtube</span></a></span>
@@ -149,12 +154,12 @@ The following template is taken from Boostrap portfolio template:
 
         <!-- Footer -->
         <footer>
-          <div class="row">
-              <div class="col-lg-12 text-center">
-                  <p>Copyright &copy; 2016 Rashed Karim, Kawal Rhode and Tobias Whetton. All Rights Reserved.</p>
-              </div>
-          </div>
-          <!-- /.row -->
+            <div class="col-lg-12 text-center">
+                <div class="row" style="padding-bottom:40px;">
+                    <p>Copyright &copy; 2016 Rashed Karim, Kawal Rhode and Tobias Whetton. All Rights Reserved.</p>
+                </div>
+            </div>
+            <!-- /.row -->
         </footer>
 
     </div>

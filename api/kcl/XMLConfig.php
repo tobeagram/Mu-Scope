@@ -144,9 +144,17 @@
                 {
                     $data = "".$specimen_node->dicom_description;
                 }
-                else if ($which_data == "stl_description")
+                else if ($which_data == "stl_one")
                 {
-                    $data = "".$specimen_node->stl_description;
+                    $data = "".$specimen_node->stl_one;
+                }
+                else if ($which_data == "stl_two")
+                {
+                    $data = "".$specimen_node->stl_two;
+                }
+                else if ($which_data == "stl_three")
+                {
+                    $data = "".$specimen_node->stl_three;
                 }
 
                 // Note: add more lines here if you add extra specimen tags
@@ -230,7 +238,7 @@
             return $attrib["name"];
 
         }
-        
+
 
         /*
         *   Get a digest of the specimen data
@@ -251,7 +259,9 @@
                     $data["subtitle"] = $this->GetSpecimenData($specimen_id, "subtitle");
                     $data["introduction"] = $this->GetSpecimenData($specimen_id, "introduction");
                     $data["dicom_description"] = $this->GetSpecimenData($specimen_id, "dicom_description");
-                    $data["stl_description"] = $this->GetSpecimenData($specimen_id, "stl_description");
+                    $data["stl_one"] = $this->GetSpecimenData($specimen_id, "stl_one");
+                    $data["stl_two"] = $this->GetSpecimenData($specimen_id, "stl_two");
+                    $data["stl_three"] = $this->GetSpecimenData($specimen_id, "stl_three");
                     $data["image"] = $this->GetSpecimenURL($specimen_id);
 
                     // Note: add more lines here if you add extra specimen tags
@@ -266,22 +276,22 @@
 
             return $output;
         }
-        
+
         /*
-        *   Get a list of collection names as an array 
+        *   Get a list of collection names as an array
         */
         function GetAllCollections()
         {
             $collection_names = array();
-            
+
             foreach ($this->xml_obj->collection as $collection)
             {
                 $attrib = $collection->attributes();
-                    
-                array_push($collection_names, "".$attrib["name"]); 
-                
+
+                array_push($collection_names, "".$attrib["name"]);
+
             }
-            
+
             return $collection_names;
         }
 

@@ -16,7 +16,261 @@
 
 -->
 <museum>
-	<collection name="zoological" id="7ab25b486b0a4219813b71912f081077">
+	<collection name="skulls" id="7ab25b486b0a4219813b71912f081077">
+
+
+
+		<specimen name="albatross" id="9a46016fc7074e609b83421bdcc6c802">
+
+			<!-- Name of the Specimen -->
+			<title>Albatross</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Diomedeidae</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/albatross.jpg</url>
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the order Eulipotyphla. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, and no living species native to the Americas (the extinct genus Amphechinus was once present in North America).
+
+				<br /><br />
+
+				Hedgehogs share distant ancestry with shrews (family Soricidae), with gymnures possibly being the intermediate link, and have changed little over the last 15 million years. Like many of the first mammals, they have adapted to a nocturnal way of life. Hedgehogs' spiny protection resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.
+
+				]]>
+			</introduction>
+
+			<stl_one>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age.</stl_one>
+
+			<stl_two>Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size.</stl_two>
+
+			<stl_three>They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+
+		<specimen name="anteater" id="9a46016fc7074e609b83421bdcc6c803">
+
+			<!-- Name of the Specimen -->
+			<title>Anteater</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Vermilingua</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/anteater.jpg</url>
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the order Eulipotyphla. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, and no living species native to the Americas (the extinct genus Amphechinus was once present in North America).
+
+				<br /><br />
+
+				Hedgehogs share distant ancestry with shrews (family Soricidae), with gymnures possibly being the intermediate link, and have changed little over the last 15 million years. Like many of the first mammals, they have adapted to a nocturnal way of life. Hedgehogs' spiny protection resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.
+
+				]]>
+			</introduction>
+
+			<stl_one>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age.</stl_one>
+
+			<stl_two>Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size.</stl_two>
+
+			<stl_three>They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+
+		<specimen name="beaver" id="9a46016fc7074e609b83421bdcc6c804">
+
+			<!-- Name of the Specimen -->
+			<title>Beaver</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Castor fiber</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/beaver.jpg</url>
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the order Eulipotyphla. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, and no living species native to the Americas (the extinct genus Amphechinus was once present in North America).
+
+				<br /><br />
+
+				Hedgehogs share distant ancestry with shrews (family Soricidae), with gymnures possibly being the intermediate link, and have changed little over the last 15 million years. Like many of the first mammals, they have adapted to a nocturnal way of life. Hedgehogs' spiny protection resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.
+
+				]]>
+			</introduction>
+
+			<stl_one>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age.</stl_one>
+
+			<stl_two>Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size.</stl_two>
+
+			<stl_three>They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+
+		<specimen name="curlew" id="9a46016fc7074e609b83421bdcc6c805">
+
+			<!-- Name of the Specimen -->
+			<title>Curlew</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Numenius arquata</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/curlew.jpg</url>
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the order Eulipotyphla. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, and no living species native to the Americas (the extinct genus Amphechinus was once present in North America).
+
+				<br /><br />
+
+				Hedgehogs share distant ancestry with shrews (family Soricidae), with gymnures possibly being the intermediate link, and have changed little over the last 15 million years. Like many of the first mammals, they have adapted to a nocturnal way of life. Hedgehogs' spiny protection resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.
+
+				]]>
+			</introduction>
+
+			<stl_one>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age.</stl_one>
+
+			<stl_two>Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size.</stl_two>
+
+			<stl_three>They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+
+		<specimen name="dog" id="9a46016fc7074e609b83421bdcc6c806">
+
+			<!-- Name of the Specimen -->
+			<title>Dog</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Canis lupus familiaris</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/dog.jpg</url>
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the order Eulipotyphla. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, and no living species native to the Americas (the extinct genus Amphechinus was once present in North America).
+
+				<br /><br />
+
+				Hedgehogs share distant ancestry with shrews (family Soricidae), with gymnures possibly being the intermediate link, and have changed little over the last 15 million years. Like many of the first mammals, they have adapted to a nocturnal way of life. Hedgehogs' spiny protection resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.
+
+				]]>
+			</introduction>
+
+			<stl_one>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age.</stl_one>
+
+			<stl_two>Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size.</stl_two>
+
+			<stl_three>They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+
+		<specimen name="dolphin" id="9a46016fc7074e609b83421bdcc6c807">
+
+			<!-- Name of the Specimen -->
+			<title>Dolphin</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Delphinidae</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/dolphin.jpg</url>
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the order Eulipotyphla. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, and no living species native to the Americas (the extinct genus Amphechinus was once present in North America).
+
+				<br /><br />
+
+				Hedgehogs share distant ancestry with shrews (family Soricidae), with gymnures possibly being the intermediate link, and have changed little over the last 15 million years. Like many of the first mammals, they have adapted to a nocturnal way of life. Hedgehogs' spiny protection resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.
+
+				]]>
+			</introduction>
+
+			<stl_one>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age.</stl_one>
+
+			<stl_two>Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size.</stl_two>
+
+			<stl_three>They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+
+		<specimen name="flamingo" id="9a46016fc7074e609b83421bdcc6c813">
+
+			<!-- Name of the Specimen -->
+			<title>Flamingo</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Phoenicopterus</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/flamingo.jpg</url>
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the order Eulipotyphla. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, and no living species native to the Americas (the extinct genus Amphechinus was once present in North America).
+
+				<br /><br />
+
+				Hedgehogs share distant ancestry with shrews (family Soricidae), with gymnures possibly being the intermediate link, and have changed little over the last 15 million years. Like many of the first mammals, they have adapted to a nocturnal way of life. Hedgehogs' spiny protection resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.
+
+				]]>
+			</introduction>
+
+			<stl_one>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age.</stl_one>
+
+			<stl_two>Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size.</stl_two>
+
+			<stl_three>They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
 
 		<specimen name="hedgehog" id="9a46016fc7074e609b83421bdcc6c865">
 
@@ -32,115 +286,212 @@
 			</image>
 
 			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
-			<introduction>A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the order Eulipotyphla. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, and no living species native to the Americas (the extinct genus Amphechinus was once present in North America). Hedgehogs share distant ancestry with shrews (family Soricidae), with gymnures possibly being the intermediate link, and have changed little over the last 15 million years. Like many of the first mammals, they have adapted to a nocturnal way of life. Hedgehogs' spiny protection resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.</introduction>
+			<introduction>
+				<![CDATA[
 
-			<stl_description>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age. Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size. They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_description>
+				A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the order Eulipotyphla. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, and no living species native to the Americas (the extinct genus Amphechinus was once present in North America).
 
-			<dicom_description>An adult hedgehog has short, broad rounded ears, mainly hidden by hair and a long narrow snout with a moist black rhinarium (tip of the nose). The small broad skull contains a relatively small brain. Hoglet neonates are born with their ears sealed closed. </dicom_description>
+				<br /><br />
 
-		</specimen>
+				Hedgehogs share distant ancestry with shrews (family Soricidae), with gymnures possibly being the intermediate link, and have changed little over the last 15 million years. Like many of the first mammals, they have adapted to a nocturnal way of life. Hedgehogs' spiny protection resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.
 
-		<specimen name="triceratops" id="6546016fcghy4e61233421bdcc6c865">
+				]]>
+			</introduction>
 
-			<!-- Name of the Specimen -->
-			<title>Triceratops</title>
+			<stl_one>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age.</stl_one>
 
-			<!-- Latin name (ie Genus/species) -->
-			<subtitle>Erinaceus europaeus</subtitle>
+			<stl_two>Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size.</stl_two>
 
-			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
-			<image height="300" width="700">
-				<url>../img/hedgehog.jpg</url>
-			</image>
-
-			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
-			<introduction>Triceratops is a genus of herbivorous ceratopsid dinosaur that first appeared during the late Maastrichtian stage of the late Cretaceous period, about 68 million years ago in what is now North America.</introduction>
-
-			<stl_description>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age. Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size. They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_description>
+			<stl_three>They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_three>
 
 			<dicom_description></dicom_description>
 
 		</specimen>
 
-		<specimen name="velociraptor" id="x3365fc7074e609b83jkfderc6c865">
-			<!-- Exactly as it appears in app's contentful Index XML, case-sensitive -->
-			<title>Velociraptor</title>
-			<subtitle>Here is a subtitle</subtitle>
-
-			<!-- In description, only text accepted, hyper-links will not work  -->
-			<description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</description>
-
-			<!-- Leave URLs empty if there are no URL to be put -->
-			<image height="300" width="700">
-				<url></url>
-			</image>
-		</specimen>
-	</collection>
-
-
-	<collection name="botanical" id="7ab25b486b0a4219813b71912f081088">
-
-		<specimen name="hedgehog" id="9a46016fc7074e609b83421bdcc6c865">
+		<specimen name="lion" id="9a46016fc7074e609b83421bdcc6c808">
 
 			<!-- Name of the Specimen -->
-			<title>Hedgehog</title>
+			<title>Lion</title>
 
 			<!-- Latin name (ie Genus/species) -->
-			<subtitle>Erinaceus europaeus</subtitle>
+			<subtitle>Panthera Leo</subtitle>
 
 			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
 			<image height="300" width="700">
-				<url>../img/hedgehog.jpg</url>
+				<url>../img/lion.jpg</url>
 			</image>
 
 			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
-			<introduction>A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the order Eulipotyphla. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, and no living species native to the Americas (the extinct genus Amphechinus was once present in North America). Hedgehogs share distant ancestry with shrews (family Soricidae), with gymnures possibly being the intermediate link, and have changed little over the last 15 million years. Like many of the first mammals, they have adapted to a nocturnal way of life. Hedgehogs' spiny protection resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.</introduction>
+			<introduction>
+				<![CDATA[
 
-			<stl_description>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age. Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size. They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_description>
+				A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the order Eulipotyphla. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, and no living species native to the Americas (the extinct genus Amphechinus was once present in North America).
 
-			<dicom_description>An adult hedgehog has short, broad rounded ears, mainly hidden by hair and a long narrow snout with a moist black rhinarium (tip of the nose). The small broad skull contains a relatively small brain. Hoglet neonates are born with their ears sealed closed. </dicom_description>
+				<br /><br />
 
-		</specimen>
+				Hedgehogs share distant ancestry with shrews (family Soricidae), with gymnures possibly being the intermediate link, and have changed little over the last 15 million years. Like many of the first mammals, they have adapted to a nocturnal way of life. Hedgehogs' spiny protection resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.
 
-		<specimen name="triceratops" id="6546016fcghy4e61233421bdcc6c865">
+				]]>
+			</introduction>
 
-			<!-- Name of the Specimen -->
-			<title>Triceratops</title>
+			<stl_one>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age.</stl_one>
 
-			<!-- Latin name (ie Genus/species) -->
-			<subtitle>Erinaceus europaeus</subtitle>
+			<stl_two>Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size.</stl_two>
 
-			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
-			<image height="300" width="700">
-				<url>../img/hedgehog.jpg</url>
-			</image>
-
-			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
-			<introduction>Triceratops is a genus of herbivorous ceratopsid dinosaur that first appeared during the late Maastrichtian stage of the late Cretaceous period, about 68 million years ago in what is now North America.</introduction>
-
-			<stl_description>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age. Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size. They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_description>
+			<stl_three>They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_three>
 
 			<dicom_description></dicom_description>
 
 		</specimen>
 
-		<specimen name="velociraptor" id="x3365fc7074e609b83jkfderc6c865">
-			<!-- Exactly as it appears in app's contentful Index XML, case-sensitive -->
-			<title>Velociraptor</title>
-			<subtitle>Here is a subtitle</subtitle>
+		<specimen name="sheep" id="9a46016fc7074e609b83421bdcc6c809">
 
-			<!-- In description, only text accepted, hyper-links will not work  -->
-			<description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</description>
+			<!-- Name of the Specimen -->
+			<title>Sheep</title>
 
-			<!-- Leave URLs empty if there are no URL to be put -->
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Ovis ares</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
 			<image height="300" width="700">
-				<url></url>
+				<url>../img/sheep.jpg</url>
 			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the order Eulipotyphla. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, and no living species native to the Americas (the extinct genus Amphechinus was once present in North America).
+
+				<br /><br />
+
+				Hedgehogs share distant ancestry with shrews (family Soricidae), with gymnures possibly being the intermediate link, and have changed little over the last 15 million years. Like many of the first mammals, they have adapted to a nocturnal way of life. Hedgehogs' spiny protection resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.
+
+				]]>
+			</introduction>
+
+			<stl_one>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age.</stl_one>
+
+			<stl_two>Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size.</stl_two>
+
+			<stl_three>They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_three>
+
+			<dicom_description></dicom_description>
+
 		</specimen>
+
+		<specimen name="tarsier" id="9a46016fc7074e609b83421bdcc6c810">
+
+			<!-- Name of the Specimen -->
+			<title>Tarsier</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Carlito syrinchta</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/tarsier.jpg</url>
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the order Eulipotyphla. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, and no living species native to the Americas (the extinct genus Amphechinus was once present in North America).
+
+				<br /><br />
+
+				Hedgehogs share distant ancestry with shrews (family Soricidae), with gymnures possibly being the intermediate link, and have changed little over the last 15 million years. Like many of the first mammals, they have adapted to a nocturnal way of life. Hedgehogs' spiny protection resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.
+
+				]]>
+			</introduction>
+
+			<stl_one>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age.</stl_one>
+
+			<stl_two>Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size.</stl_two>
+
+			<stl_three>They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+
+		<specimen name="thylacine" id="9a46016fc7074e609b83421bdcc6c811">
+
+			<!-- Name of the Specimen -->
+			<title>Thylacine</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Thylacinus cynocephalus</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/thylacine.jpg</url>
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the order Eulipotyphla. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, and no living species native to the Americas (the extinct genus Amphechinus was once present in North America).
+
+				<br /><br />
+
+				Hedgehogs share distant ancestry with shrews (family Soricidae), with gymnures possibly being the intermediate link, and have changed little over the last 15 million years. Like many of the first mammals, they have adapted to a nocturnal way of life. Hedgehogs' spiny protection resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.
+
+				]]>
+			</introduction>
+
+			<stl_one>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age.</stl_one>
+
+			<stl_two>Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size.</stl_two>
+
+			<stl_three>They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+
+		<specimen name="turtle" id="9a46016fc7074e609b83421bdcc6c812">
+
+			<!-- Name of the Specimen -->
+			<title>Turtle</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Testudines</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/turtle.jpg</url>
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the order Eulipotyphla. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, and no living species native to the Americas (the extinct genus Amphechinus was once present in North America).
+
+				<br /><br />
+
+				Hedgehogs share distant ancestry with shrews (family Soricidae), with gymnures possibly being the intermediate link, and have changed little over the last 15 million years. Like many of the first mammals, they have adapted to a nocturnal way of life. Hedgehogs' spiny protection resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.
+
+				]]>
+			</introduction>
+
+			<stl_one>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age.</stl_one>
+
+			<stl_two>Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size.</stl_two>
+
+			<stl_three>They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+
 
 	</collection>
 
 
-	
+
 
 </museum>

@@ -17,6 +17,7 @@ The following template is taken from Boostrap portfolio template:
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <title>About the Museum</title>
 
 
 
@@ -34,8 +35,12 @@ The following template is taken from Boostrap portfolio template:
     <![endif]-->
 
     <!-- Custom Fonts -->
+    <link href="../api/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic' rel='stylesheet' type='text/css'>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="../img/favicon.png"/>
 
 
     <style>
@@ -65,22 +70,19 @@ The following template is taken from Boostrap portfolio template:
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" id="navbar-button" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+              <button type="button" style="padding:7px 0 0 0; "class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <i class="fa fa-bars"></i>
+              </button>
                 <a class="navbar-brand page-scroll" href="../welcome">
-                  <img src="../img/KCL_logo.png" alt="KCL Logo" height="22" style="filter: invert(60%);">
+                    <img src="../img/KCL_logo.png" alt="KCL Logo" height="22">
                 </a>
-              <a class="navbar-brand" id="mls" style="color:rgba(0, 0, 0, 0.7);text-transform:uppercase;letter-spacing:0.03em;" href="../welcome">Museum <span id="of">of</span> Life Sciences</a>
+                <a class="navbar-brand" id="mls" style="color:rgba(0, 0, 0, 0.7);text-transform:uppercase;letter-spacing:0.03em;" href="../welcome">Museum <span id="of">of</span> Life Sciences</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div style="border:none;" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="../collections">collections</a>
+                        <a href="../exhibitions">exhibitions</a>
                     </li>
                     <li>
                         <a href="../events">what's on</a>
@@ -161,12 +163,12 @@ The following template is taken from Boostrap portfolio template:
 
         <!-- Footer -->
         <footer>
-          <div class="row">
-              <div class="col-lg-12 text-center">
-                  <p>Copyright &copy; 2016 Rashed Karim, Kawal Rhode and Tobias Whetton. All Rights Reserved.</p>
-              </div>
-          </div>
-          <!-- /.row -->
+            <div class="col-lg-12 text-center">
+                <div class="row" style="padding-bottom:40px;">
+                    <p>Copyright &copy; 2016 Rashed Karim, Kawal Rhode and Tobias Whetton. All Rights Reserved.</p>
+                </div>
+            </div>
+            <!-- /.row -->
         </footer>
 
     </div>
