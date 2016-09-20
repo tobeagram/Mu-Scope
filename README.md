@@ -29,7 +29,7 @@ In order to achieve a very crisp and clean 3D model from a Computed Tomography S
 - **[Unity](http://unity3d.com)**, added lighting, and a custom texture to the specimen. A user interface and the ability to interact with the model created by Dr James Housden was also included. This package is then exported and drag and dropped into the website directory.
 
 
-## ACKNOWLEDGEMENTS 
+## Acknowledgments
 <b>Written and Designed by Tobias Whetton</b> over the course of three months. This wouldn’t have been possible without the help and expertise of: 
 
 - <b>Dr Rashed Karim</b> Project Supervisor
