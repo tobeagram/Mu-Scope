@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="windows-1252"?>
 <!--
-	Author: Rashed Karim
+	Authors: Rashed Karim & Tobias Whetton
 	Created: March 19, 2016
-	Last Updated:  March 19, 2016
+	Last Updated: Sept 20, 2016
 
 	The filename should not be changed as it is hard-coded in the following places:
 	1. index.php
 
 	Notes:
 	======
-	1. Every specimen must have a <title>, <subtitle> and a <description>, this is a bare minimum
+	1. Every specimen must have a <title>, <subtitle> and a <introduction>, this is a bare minimum
 	2. All images should be 300 pixels in height and 700 pixels in width
 	3. In description, only text accepted, hyper-links will not work
-	4. More specimen groups can be added to this XML, however, there is no real functionality in the php to handle multiple groups yet (as of March 2016)
+	4. Every specimen should be assigned to a collection
 
 -->
 <museum>
 	<collection name="skulls" id="7ab25b486b0a4219813b71912f081077">
-
-
 
 		<specimen name="albatross" id="9a46016fc7074e609b83421bdcc6c802">
 

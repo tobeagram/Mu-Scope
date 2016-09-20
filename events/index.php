@@ -1,9 +1,7 @@
 <!--
 
-Rashed Karim KCL 2016
-
-The following template is taken from Boostrap portfolio template:
-1 Col Portfolio - Start Bootstrap Template
+Written by Tobias Whetton & Dr Rashed Karim
+King's College London, 2016
 
 -->
 
