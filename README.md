@@ -11,7 +11,7 @@ This landing page serves to advertise new events happening on the website or at 
 This is a modular page automatically pulls information on exhibitions by php from an xml file. All exhibitions are displayed in a responsive tile format. Upon clicking an exhibition all the specimens dissolve in, and are displayed in a tiled card format.
 
 ###### /specimen
-Each specimen page is laid out in the same way. With a few paragraphs describing the characteristics of the living organism. A virtual viewer loads the specimen using Unity Engine. Instructions on how to use the viewer are present along with a fullscreen button. To aid learning about the specimen there are three different features to look out for and these range from easy (Key Stage Level) to Tough (University Level). So there is something for everyone to learn abut, from academics to pupils.
+Each specimen page is laid out in the same way. With a few paragraphs describing the characteristics of the living organism. A virtual viewer loads the specimen using Unity Engine. Instructions on how to use the viewer are present along with a fullscreen button. To aid learning about the specimen there are three different features to look out for and these range from Easy (Key Stage Level) to Tough (University Level). So there is something for everyone to learn abut, from academics to pupils.
 
 ###### /what’s on
 Displays a live twitter feed from the museum’s account as well as responsive social link buttons.
