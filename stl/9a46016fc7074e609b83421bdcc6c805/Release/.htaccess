@@ -1,4 +1,4 @@
-Options +FollowSymLinks
+Options +SymLinksIfOwnerMatch
 RewriteEngine on
 
 RewriteCond %{HTTP:Accept-encoding} gzip

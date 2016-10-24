@@ -1,7 +1,9 @@
 <!--
 
-Written by Tobias Whetton & Dr Rashed Karim
-King's College London, 2016
+Rashed Karim KCL 2016
+
+The following template is taken from Boostrap portfolio template:
+1 Col Portfolio - Start Bootstrap Template
 
 -->
 
@@ -15,7 +17,7 @@ King's College London, 2016
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Online Interactive Exhibitions</title>
+    <title>Museum Virtual Exhibitions</title>
 
 
 
@@ -42,13 +44,6 @@ King's College London, 2016
 
 
     <style>
-
-    #padder {
-      margin-bottom: 0px;
-      padding-bottom:0px;
-      padding-right: 5px;
-      padding-left: 5px;
-    }
 
     body {
       background: #fbf8f2;
@@ -376,7 +371,7 @@ King's College London, 2016
                 ?>
         <!-- Portfolio Modals -->
         <div class="portfolio-modal modal fade" id="<?php echo $collection_name; ?>portfolio" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
+            <div class="modal-content" style="padding-bottom:140px;">
                 <div class="close-modal" data-dismiss="modal">
                     <div class="lr">
                         <div class="rl">
@@ -408,7 +403,7 @@ King's College London, 2016
                                             {
                                                 ?>
                                                     <!-- Project One/Two/Three and so on -->
-                                                    <div class="col-lg-4 col-md-6 col-sm-12">
+                                                    <div class="col-sm-4">
                                                         <div style="background:#fbf8f2;border-radius:4px;padding-top:7px;padding-bottom:20px;margin: 10px 0px 30px; 0px;">
                                                         <?php
                                                                 $specimen_name = $specimen['specimen_name'];
@@ -477,7 +472,7 @@ King's College London, 2016
 
 
 
-                <footer style="padding-bottom:3px;">
+                <footer>
 
                     <div class="col-lg-12 text-center">
 
@@ -485,7 +480,7 @@ King's College London, 2016
 
                         <div class="row">
                           <hr><br>
-                            <p id="padder" style="color:#F8F8F8">Copyright &copy; 2016 Rashed Karim, Kawal Rhode and Tobias Whetton. All Rights Reserved.</p>
+                              <a href="../acknowledgements" style="text-decoration:none;"><p style="color:#F8F8F8">Copyright &copy; 2016 Rashed Karim, Kawal Rhode and Tobias Whetton. All Rights Reserved.</p></a>
                         </div>
                     </div>
                     <!-- /.row -->
@@ -503,11 +498,13 @@ King's College London, 2016
 
             <!-- Footer -->
         <footer>
+          <a href="../acknowledgements" style="text-decoration:none;">
             <div class="col-lg-12 text-center">
                 <div class="row" style="padding-bottom:40px;">
                     <p>Copyright &copy; 2016 Rashed Karim, Kawal Rhode and Tobias Whetton. All Rights Reserved.</p>
                 </div>
             </div>
+          </a>
             <!-- /.row -->
         </footer>
 

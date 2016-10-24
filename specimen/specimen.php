@@ -228,7 +228,7 @@ King's College London, 2016
                   <i class="fa fa-bars"></i>
               </button>
                 <a class="navbar-brand page-scroll" href="../welcome">
-                    <img src="../img/KCL_logo.png" alt="KCL Logo" height="22" style="-webkit-filter: invert(60%);">
+                    <img src="../img/KCL_logo.png" alt="KCL Logo" height="22">
                 </a>
                 <a class="navbar-brand" id="mls" style="color:rgba(0, 0, 0, 0.7);text-transform:uppercase;letter-spacing:0.03em;" href="../welcome">Museum <span id="of">of</span> Life Sciences</a>
             </div>
@@ -334,12 +334,14 @@ King's College London, 2016
         <hr>
 
         <!-- Footer -->
-        <footer style="padding-bottom:20px;">
+        <footer>
+          <a href="../acknowledgements" style="text-decoration:none;">
             <div class="col-lg-12 text-center">
-                <div class="row">
+                <div class="row" style="padding-bottom:40px;">
                     <p>Copyright &copy; 2016 Rashed Karim, Kawal Rhode and Tobias Whetton. All Rights Reserved.</p>
                 </div>
             </div>
+          </a>
             <!-- /.row -->
         </footer>
 

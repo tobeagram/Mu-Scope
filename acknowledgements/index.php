@@ -15,7 +15,7 @@ King's College London, 2016
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>About the Museum</title>
+    <title>Acknowledgements</title>
 
 
 
@@ -43,7 +43,11 @@ King's College London, 2016
 
     <style>
 
-
+    ul {
+      text-align: center;
+      list-style-type: none;
+      padding: 0 0 0 0;
+    }
 
     </style>
 </head>
@@ -102,7 +106,7 @@ King's College London, 2016
         <!-- Page Heading -->
         <div class="row">
           <div class="col-lg-12 text-center">
-              <h2 style="color:#F23B3E">About the Museum</h2>
+              <h2 style="color:#F23B3E">Acknowledgements</h2>
               <hr class="star-primary">
           </div>
         </div>
@@ -110,45 +114,17 @@ King's College London, 2016
 
       <div class="row">
         <div class="container">
-          <p>The Museum of Life Sciences exists to celebrate and explain the diversity of animal and plant life in the context of the biological and health sciences.</p><p>
-          This little-known part of the heritage of King’s College London is the first new museum in the College for over 100 years. Opened in 2009, it brings together historic biological and pharmaceutical collections from the constituent colleges that make up the modern College.</p><p>
-          Specimens date from the early 19th century to the present and include skeletal material, fluid-preserved items, taxidermy, dried material, fossils and fossil casts, microscope and 35mm slides as well as a herbarium of plant material. They come from a variety of habitats around the world from the arctic to the tropics, from the deep sea to the Russian steppes. The material has been collected mainly for teaching and research over the history of the college.</p><p>
-          The Museum is housed adjacent to the Gordon Museum on the Guy’s Site. It is used by staff and students from King’s and other academic organizations for a range of activities including practical classes, tutorials, seminars and lectures, private study by students at the College, research by students and other workers, exhibitions and the care and curation of specimens. Students are able to study plants and animals of medical importance as well as broadening their knowledge of the Life Sciences.</p>
 
+          <p><strong>Museum-Scope</strong> is a web interface designed to enable anyone to interact with and learn about digitised specimens from the Museum of Life Sciences using the 3D Unity Web Player. Written and designed by Tobias Whetton over the course of three months. This wouldn’t have been possible without the help and expertise of: </p>
           <br>
-
-          <h3>Supporting the Museum</h3>
-          <p>The Museum currently has no recurrent budget for ongoing expenses and only one part-time member of staff. Resources and help are needed to develop the educational use of the Museum and to expand the collection.</p><p>
-          Funds are needed especially for:
-          <ul><li><strong>Curation costs</strong>: materials and expertise for restoration and preservation</li>
-          <li><strong>Cataloguing and digitizing</strong>: photographic equipment and software</li>
-          <li><strong>Outreach</strong>: acquisition and development of materials suitable for work with local schools and colleges</li>
-          <li><strong>Promotion</strong>: production of literature, internet-based information and other materials</li>
-          <li><strong>Teaching and training</strong>: purchase of equipment, materials and development of teaching aids</li>
+          <ul>
+          <li><b>Dr Rashed Karim</b> Project Supervisor</li>
+          <li><b>Professor Kawal Rhode</b> Tutor/Supervisor</li>
+          <li><b>Joemon John</b> Superintendent Radiographer</li>
+          <li><b>Dr Gillian Sales</b> Museum of Life Sciences Curator</li>
+          <li><b>Dr James Housden</b> Research Fellow</li>
           </ul>
-          <p>A small band of volunteers, including present and former students as well as former staff, currently provides invaluable help. Each volunteer comes as their commitments allow. We try to match them with their interests and experience and to give them the opportunity to acquire new skills.</p>
 
-          <br>
-
-          <h3>Visits and Contact</h3>
-          <p>The Museum is open to members of the college and their invited guests during the opening hours of the Gordon Museum. We regret that the Museum is not currently accesible to the public, but we do plan to open to the public in future when funding allows. Visits by academically-related non-members of the College can be arranged with the Curator.</p><p>
-          The Museum is situated in the Hodgkin Building, on the Guy’s Site of King’s College. It is close to London Bridge underground and mainline stations and is well served by buses.</p><p>
-          Access is via the Gordon Museum, Hodgkin Building unless by prior agreement when non-step access direct from the Memorial Garden in the centre of the site can be arranged.</p>
-
-          <br>
-
-          <h3>Contact the Curator</h3>
-
-          <p>
-          <strong>Dr Gillian Sales</strong><br>
-          Museum of Life Sciences<br>
-          Department of Anatomy & Human Sciences<br>
-          King’s College London<br>
-          Hodgkin Building<br>
-          Guy’s Campus<br>
-          London SE1 1UL<br>
-          Email: gillian.sales@kcl.ac.uk
-          </p>
 
         </div>
       </div>
@@ -161,13 +137,11 @@ King's College London, 2016
 
         <!-- Footer -->
         <footer>
-          <a href="../acknowledgements" style="text-decoration:none;">
             <div class="col-lg-12 text-center">
                 <div class="row" style="padding-bottom:40px;">
                     <p>Copyright &copy; 2016 Rashed Karim, Kawal Rhode and Tobias Whetton. All Rights Reserved.</p>
                 </div>
             </div>
-          </a>
             <!-- /.row -->
         </footer>
 
