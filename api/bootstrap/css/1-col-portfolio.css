@@ -26,6 +26,10 @@ a {
   transition:  .3s ease-in-out;
 }
 
+.large-footer {
+  font-size: 15px;
+}
+
 
 .btn {
   background: #F23B3E;

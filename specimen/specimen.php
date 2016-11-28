@@ -338,7 +338,7 @@ King's College London, 2016
           <a href="../acknowledgements" style="text-decoration:none;">
             <div class="col-lg-12 text-center">
                 <div class="row" style="padding-bottom:40px;">
-                    <p>Copyright &copy; 2016 Rashed Karim, Kawal Rhode and Tobias Whetton. All Rights Reserved.</p>
+                    <p class="large-footer">Copyright &copy; 2016 Rashed Karim, Kawal Rhode and Tobias Whetton. All Rights Reserved.</p>
                 </div>
             </div>
           </a>
