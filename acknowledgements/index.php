@@ -113,7 +113,7 @@ King's College London, 2016
         <!-- /.row -->
 
       <div class="row">
-        <div class="container">
+        <div class="container text-center">
 
           <p><strong>Museum-Scope</strong> is a web interface designed to enable anyone to interact with and learn about digitised specimens from the Museum of Life Sciences using the 3D Unity Web Player. Written and designed by Tobias Whetton over the course of three months. This wouldn’t have been possible without the help and expertise of: </p>
           <br>
@@ -124,6 +124,10 @@ King's College London, 2016
           <li><b>Dr Gillian Sales</b> Museum of Life Sciences Curator</li>
           <li><b>Dr James Housden</b> Research Fellow</li>
           </ul>
+          <br>
+          <p>This work was supported by the National Institute for Health Research (NIHR) Biomedical Research Centre at Guy's and St Thomas' NHS Foundation Trust and King's College London. The views expressed are those of the author(s) and not necessarily those of the NHS, the NIHR or the Department of Health.</p>
+          <br><br><br>
+          <img style="opacity:0.8; padding-bottom:0;margin-bottom:0;" width="250px" src="../img/NIHR-logo.png">
 
 
         </div>

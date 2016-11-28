@@ -382,7 +382,7 @@ The following template is taken from Boostrap portfolio template:
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <div class="modal-body">
+                                    <div class="modal-body" style="padding: 0 0 0 0;">
 
 
                                         <!-- Page Heading -->
