@@ -5,11 +5,34 @@ Rashed Karim KCL 2016
 The following template is taken from Boostrap portfolio template:
 1 Col Portfolio - Start Bootstrap Template
 
--->
 
+If you add a new collection, please follow instructions below  
+
+-->
+<?php 
+
+    /*
+    * INSTRUCTIONS FOR ADDING A NEW COLLECTION 
+    *
+    * To add a new collection: 
+    * 1. add a new line to array_push and a new entry in the 
+    * 2. A new entry in the collection_names array 
+    *
+    */
+    
+    include_once("../api/kcl/ServerLogs.php");
+    include_once("../api/kcl/XMLConfig.php");
+    
+    $xml_configs = array();
+
+    array_push($xml_configs, new XMLConfig('../xml/skulls.xml'));
+    array_push($xml_configs, new XMLConfig('../xml/primates.xml'));
+    
+    $collection_names = array('skulls','primates');
+                    
+?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
     <meta charset="utf-8">
@@ -273,12 +296,6 @@ The following template is taken from Boostrap portfolio template:
 
     </style>
 </head>
-<?php
-
-    include_once("../api/kcl/ServerLogs.php");
-    include_once("../api/kcl/XMLConfig.php");
-
-?>
 
 <body>
 
@@ -326,21 +343,16 @@ The following template is taken from Boostrap portfolio template:
             <div class="row">
                 <?php
 
-                    // Read the XML config file
-
-                    //$collection_name = 'zoological';
-                    $xml_config = new XMLConfig('../xml/museum.xml');
-
-                    // Get a list of all collections
-                    $collections = $xml_config->GetAllCollections();
-                    error_log(print_r($collections, true));
-
-
-                    foreach ($collections as $collection_name)
+                
+                    $count = 0;
+                    foreach ($xml_configs as $xml_config)
                     {
+                        $collection_name = $collection_names[$count++];
                         //error_log("Collection = ".$collection_name);
+                        //$specimen_data = $xml_config->GetSpecimenDataDigest($collection_name);
                         $specimen_data = $xml_config->GetSpecimenDataDigest($collection_name);
-
+                        
+                  
                 ?>
                     <div class="col-sm-12 portfolio-item">
                         <a href="#<?php echo $collection_name; ?>portfolio" class="portfolio-link" data-toggle="modal">
@@ -362,11 +374,13 @@ The following template is taken from Boostrap portfolio template:
 
     <?php
 
-
-                foreach ($collections as $collection_name)
+                $count = 0;
+                foreach ($xml_configs as $xml_config)
                 {
                     //error_log("Collection = ".$collection_name);
+                    $collection_name = $collection_names[$count++];
                     $specimen_data = $xml_config->GetSpecimenDataDigest($collection_name);
+
 
                 ?>
         <!-- Portfolio Modals -->
@@ -409,7 +423,7 @@ The following template is taken from Boostrap portfolio template:
                                                                 $specimen_name = $specimen['specimen_name'];
 
                                                                 // URL for each specimen button is constructed here
-                                                                $url = '../specimen/specimen.php?specimen_type='.$collection_name.'&specimen_name='.$specimen_name.'&specimen_id='.$specimen_id;
+                                                                $url = '../specimen/specimen.php?collection='.$collection_name.'&specimen_name='.$specimen_name.'&specimen_id='.$specimen_id;
                                                         ?>
                                                             <a href="<?php echo $url; ?>" id="polaroid">
                                                                 <?php

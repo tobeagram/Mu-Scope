@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!--
+	Authors: Rashed Karim & Tobias Whetton
+	Created: March 19, 2016
+	Last Updated: Sept 20, 2016
+
+	The filename should not be changed as it is hard-coded in the following places:
+	1. index.php
+
+	Notes:
+	======
+	1. Every specimen must have a <title>, <subtitle> and a <introduction>, this is a bare minimum
+	2. All images should be 300 pixels in height and 700 pixels in width
+	3. In description, only text accepted, hyper-links will not work
+	4. Every specimen should be assigned to a collection
+
+-->
+<museum>
+<collection name="primates" id="8ab25b486b0a4219813b71912f081077">
+
+		<specimen name="human" id="8a46016fc7074e609b83421bdcc6c865">
+
+			<!-- Name of the Specimen -->
+			<title>Human</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Homo sapien</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/human.jpg</url>
+
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				The Homo genus once also included many other species of the hominid family that are now extinct, including Neanderthals, but now only humans remain extant.
+
+				<br /><br />
+
+				Humans are distributed globally, and are without a doubt the most successful and adaptable animals on planet Earth. The fossils of what is argued to be our closest relative 'Homo sapiens idaltu' have been dated to 160,000 years ago in Africa, providing evidence for the origin of the human race here.
+
+				<br /><br />
+
+				Humans are bipedal, with lower limbs and feet adapted for long distance running. Humans are the greatest endurance runners in the animal kingdom.
+
+				]]>
+			</introduction>
+
+			<stl_one>Compare the size of the cranial vault to that of Chimpanzees, our closest living relative. What do you notice?</stl_one>
+
+			<stl_two>How does the dentition of humans compare to Chimpanzees? Both species have 32 adult teeth.</stl_two>
+
+			<stl_three>What adaptations in the human foot have evolved for long distance running?</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+
+		<specimen name="chimp" id="8a46016fc7074e609b83421bdcc6c802">
+
+			<!-- Name of the Specimen -->
+			<title>Chimpanzee</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Pan troglodytes</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/chimp.jpg</url>
+
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				Chimpanzees are, together with Bonobos, human beings closest living relative. Native to the Congo jungle in central and west Africa, Chimps are part of the sub family Homininae.
+
+				<br /><br />
+
+				Chimps have an omnivorous diet, supplementing foliage with small animals they catch. Not possessing foot arches, chimps are knuckle walkers, or move on all fours.
+
+				<br /><br />
+
+
+
+				]]>
+			</introduction>
+
+			<stl_one>What is the name of the gap between the chimps teeth for their enlarged canines?</stl_one>
+
+			<stl_two>How long ago are chimpanzees proposed to have diverged from humans?</stl_two>
+
+			<stl_three>Look at the brow ridge of the chimp skull. Which lobe of the brain is primarily reduced in size by this feature?</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+
+		<specimen name="orangutan" id="8a46016fc7074e609b83421bdcc6c803">
+
+			<!-- Name of the Specimen -->
+			<title>Orangutan</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Pongo borneo</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/orangutan.jpg</url>
+
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				Part of the super family Hominoidea, there are two sub species of Orangutan native to the Borneo and Sumatran rainforests in Malaysia and Indonesia respectively. Orangutans are the most solitary of the great apes, and are known to use a variety of tools.
+
+				<br /><br />
+
+				Orangutans subsist of a diet composed primarily of fruit, vegetation, honey and insects, and have been known to eat bird eggs. Both species are currently critically endangered due to habitat destruction and poaching.
+
+				<br /><br />
+
+				There is great sexual dimorphism in Orangutans; the male has an arm span of over two metres. Orangutans are the only truly arboreal great ape, and are not true knuckle walkers, walking on their fists instead.
+
+
+
+				]]>
+			</introduction>
+
+			<stl_one>What is different about the shape orangutans orbits compared to other great apes?</stl_one>
+
+			<stl_two>Compare the nuchal and sagital crests of the orangutan skull to the the human</stl_two>
+
+			<stl_three>How does the dentition of the orangutan compare to the other great apes?</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+
+		<specimen name="macaque" id="8a46016fc7074e609b83421bdcc6c804">
+
+			<!-- Name of the Specimen -->
+			<title>Macaque</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Macaca</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/macaque.jpg</url>
+
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				The macaque genus consists of twenty three different species; the exact species of this skull is unknown. Macaques are 'Old world monkeys', of the subfamily Cercopithecinae and are some of the most widely distributed monkeys, native to North Africa, Southern Europe and Asia.
+
+				<br /><br />
+
+				Highly social animals, Macaque groups centre around dominant matriarchs and subsist on a varied diet composed of fruit, vegetables, grain, insects and fish, although this varies by species.
+
+				<br /><br />
+
+				The Rhesus macaque is well known to science, having been used as the primate species used for experiments for decades.
+
+
+
+				]]>
+			</introduction>
+
+			<stl_one>Some species of macaque are arboreal in nature, whilst some are terrestrial</stl_one>
+
+			<stl_two>How long ago are old world monkeys said to have diverged from the great apes?</stl_two>
+
+			<stl_three>Macaques use both plantigrade and digitigrade locomotion - what does this mean?</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+
+		<specimen name="lemur" id="8a46016fc7074e609b83421bdcc6c805">
+
+			<!-- Name of the Specimen -->
+			<title>Lemur</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Lemuriform</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/lemur.jpg</url>
+
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				Lemuriform refers to the clade of lemurs, consisting of around one hundred surviving species, all of which are indigenous to the island of Madagascar. Each species of lemur is adapted to a different ecological niche on the island.
+
+				<br /><br />
+
+				Most species of lemur have wide herbivorous diets, whilst some have specialised further into specific niches. All species of lemur are considered highly endangered.
+
+				<br /><br />
+
+				Lemurs tails are not prehensile; a trait only present in new world monkeys. Their thumbs are pseudo opposable, and their orbits do not fully face forwards.
+
+
+
+				]]>
+			</introduction>
+
+			<stl_one>Notice the remains of the 'tooth comb' present on the lower jaw, fused from 4 incisors and 2 canines.</stl_one>
+
+			<stl_two>What do you notice about the bony structure of the lemur orbit?</stl_two>
+
+			<stl_three>What is the dentition pattern of this skull? This varies between lemur species/.</stl_three>
+
+			<dicom_description></dicom_description>
+		</specimen>
+
+
+		<specimen name="loris" id="8a46016fc7074e609b83421bdcc6c806">
+
+			<!-- Name of the Specimen -->
+			<title>Loris</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Lorisidae</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/loris.jpg</url>
+
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				Lorisidae are a family of strepsirrhine primates, including the species of Slender and Slow lorises, Pottos, and Angwatibos. These tiny primates are native to tropical Africa, South and Southeast Asia.
+
+				<br /><br />
+
+				Both species of Loris are noctural with incredibly large eyes, and are arboreal in nature. Their diet consists of insects, leaves and slugs.
+
+				<br /><br />
+
+
+
+				]]>
+			</introduction>
+
+			<stl_one>Notice the incredibly large eye sockets allowing superb night vision</stl_one>
+
+			<stl_two>How does the snout of the Loris compare with that of a Lemur?</stl_two>
+
+			<stl_three>What features does the loris skull share with that of the lemur, another strepsirrhine primate?</stl_three>
+
+			<dicom_description></dicom_description>
+		</specimen>
+
+	</collection>
+	
+
+</museum>

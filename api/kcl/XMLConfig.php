@@ -66,7 +66,7 @@
     		}
 
     		return $specimen_node;
-            //file_put_contents('debug.txt', print_r($specimen_node, true));
+            
     	}
 
         //!

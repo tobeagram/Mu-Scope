@@ -3,6 +3,7 @@
 Written by Tobias Whetton & Dr Rashed Karim
 King's College London, 2016
 
+
 -->
 
 <!DOCTYPE html>
@@ -194,13 +195,15 @@ King's College London, 2016
         include_once("../api/kcl/XMLConfig.php");
 
         // Read the XML config file
-
-        $specimen_type = $_GET['specimen_type']; // zoological';
+        
+        $collection_name = $_GET['collection']; // zoological';
         $specimen_name = $_GET['specimen_name'];
         $specimen_id = $_GET['specimen_id'];
 
-        $xml_config = new XMLConfig('../xml/museum.xml');
-        $specimen_data = $xml_config->GetSpecimenDataDigest($specimen_type);
+        //$xml_config = new XMLConfig('../xml/museum.xml');
+        $xml_file_to_collection = '../xml/'.$collection_name.'.xml';
+        $xml_config = new XMLConfig($xml_file_to_collection);
+        $specimen_data = $xml_config->GetSpecimenDataDigest($collection_name);
 
 
         $title = $specimen_data[$specimen_id]['title'];
