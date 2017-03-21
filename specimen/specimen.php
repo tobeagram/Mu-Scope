@@ -360,14 +360,50 @@ $(document).ready(function(){
 
     <!-- Unity -->
     <script type='text/javascript'>
-    var Module = {
-      TOTAL_MEMORY: 536870912,
-      errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
-      compatibilitycheck: null,
-      dataUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/stl.data",
-      codeUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/stl.js",
-      memUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/stl.mem",
-    };
+
+    
+    /*
+    *   This is to deal with the special case for all of Oliver's primate specimens,  
+    *   and they differed from Tobias' specimens on two fronts: 
+    *
+    *   1. The STL he exported from Unity had their own unique specimen names in the specimen Release folders
+    *   They should be exported and given the name 'stl', they were instead called 'Final Lemur Scene' and so on 
+    * 
+    *   2. Due to difference in Unity version between Tobias and Oliver, the export has an extra ASM file that 
+    *   needed to be added. 
+    * 
+    *   3. In this new version of Unity which Oliver uses, the exports should include the 'gz' in the extension otherwise 
+    *   the browser throws an 'unknown compresssion method' error 
+    */
+    var collection = <?php echo "'".$_GET['collection']."'"?>; 
+    var specimen_name = <?php echo "'".ucwords($_GET['specimen_name'])."'"?>; 
+
+    if (collection == 'primates')
+    {
+      var stl_export_filename = 'Final '+specimen_name+' Scene'; 
+      var Module = {
+        TOTAL_MEMORY: 536870912,
+        errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+        compatibilitycheck: null,
+        backgroundColor: "#222C36",
+        splashStyle: "Light",
+        dataUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/"+stl_export_filename+".datagz",
+        codeUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/"+stl_export_filename+".jsgz",
+        asmUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/"+stl_export_filename+".asm.js",
+        memUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/"+stl_export_filename+".memgz",
+      };
+      console.log(Modile);
+    }
+    else {
+      var Module = {
+        TOTAL_MEMORY: 536870912,
+        errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+        compatibilitycheck: null,
+        dataUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/stl.data",
+        codeUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/stl.js",
+        memUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/stl.mem",
+      };
+    }
     </script>
     <script src="../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/UnityLoader.js"></script>
 
