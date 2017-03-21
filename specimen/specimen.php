@@ -392,7 +392,7 @@ $(document).ready(function(){
         asmUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/"+stl_export_filename+".asm.js",
         memUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/"+stl_export_filename+".memgz",
       };
-      console.log(Modile);
+      
     }
     else {
       var Module = {
