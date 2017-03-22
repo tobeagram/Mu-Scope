@@ -389,7 +389,7 @@ $(document).ready(function(){
         splashStyle: "Light",
         dataUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/"+stl_export_filename+".datagz",
         codeUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/"+stl_export_filename+".jsgz",
-        asmUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/"+stl_export_filename+".asm.jsgz",
+        asmUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/"+stl_export_filename+".asm.js",
         memUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/"+stl_export_filename+".memgz",
       };
       
