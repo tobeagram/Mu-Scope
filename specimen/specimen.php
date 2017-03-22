@@ -380,7 +380,7 @@ $(document).ready(function(){
 
     if (collection == 'primates')
     {
-      var stl_export_filename = 'Final'+specimen_name+'Scene'; 
+      var stl_export_filename = specimen_name+'_scene'; 
       var Module = {
         TOTAL_MEMORY: 536870912,
         errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
