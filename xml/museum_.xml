@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!--
+	Authors: Rashed Karim & Tobias Whetton
+	Created: March 19, 2016
+	Last Updated: Sept 20, 2016
+
+	The filename should not be changed as it is hard-coded in the following places:
+	1. index.php
+
+	Notes:
+	======
+	1. Every specimen must have a <title>, <subtitle> and a <introduction>, this is a bare minimum
+	2. All images should be 300 pixels in height and 700 pixels in width
+	3. In description, only text accepted, hyper-links will not work
+	4. Every specimen should be assigned to a collection
+
+-->
+<museum>
+	<collection name="skulls" id="7ab25b486b0a4219813b71912f081077">
+
+		<specimen name="albatross" id="9a46016fc7074e609b83421bdcc6c802">
+
+			<!-- Name of the Specimen -->
+			<title>Albatross</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Diomedeidae</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/albatross.jpg</url>
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				Albatrosses are large sea birds found in the Southern Oceans. One species, the Wandering Albatross, has the widest wing span of all birds – in excess of 3 metres (12 ft). They use these long, narrow wings to glide and fly efficiently during long-distance journeys over oceans. During these flights they alight on the sea to catch squid and fish. Inevitably, sea water is also ingested and the excess salt has to be secreted.  Salty secretions are formed in two nasal salt glands which are found in elongate depressions in the skull bone above each eye.
+
+				<br /><br />
+
+				Albatrosses can fly long distances, up to 16,000 km (10,000 miles) without alighting on land. They fly into the wind and angle the wings to gain height, then turn and swoop rapidly down for up to 100m.
+
+				<br /><br />
+
+				Albatrosses come to land to breed, generally on small, remote islands.  Prolonged courtship displays result in pair bonds that may last many years. Pairs nest in dense colonies and both parents incubate the single egg in turns for up to 80 days and it may take nearly a year before the single young fledges.
+
+				]]>
+			</introduction>
+
+			<stl_one>Look the skull from the side, especially note the shape of the beak.  Why do you think it is the shape it is?</stl_one>
+
+			<stl_two>Bisect the skull to see the space taken by the brain.  Why do you think these birds need large brains?</stl_two>
+
+			<stl_three>The salt glands open onto the front of the skull. Can you identify the tubular openings.</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+
+		<specimen name="anteater" id="9a46016fc7074e609b83421bdcc6c803">
+
+			<!-- Name of the Specimen -->
+			<title>Anteater</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Myrmecophaga tridactyla</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/anteater.jpg</url>
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				The giant anteater lives in Central and South America.  Some adults are more than two metres long.  They live in grasslands and forests and feed entirely on termites and ants.  An anteater gets into the nests of insects by cutting into them with powerful, large claws on its front legs.  Once the insects are exposed the anteater eats them by protruding its exceptionally long, sticky tongue which can reach lengths of 60 cm (24 in).. Trapping of insects is helped by thick mucus secreted by large salivary glands. The mouth is very small and very little jaw movement is possible.  To open its mouth the anteater has to rotate the two halves of the lower jaw.  It can flick its tongue in and out 160 of the small opening 160 times a minute.
+
+				<br /><br />
+
+			The ants and termites are crushed against the palate and are swallowed with small amounts of sand and soil.  Once in the stomach the food is ground up by strong folds in the stomach wall aided by the sand and soil and by the formic acid released from its prey by the grinding process.
+
+				]]>
+			</introduction>
+
+			<stl_one>The skull is long and tubular – why do you think this is?</stl_one>
+
+			<stl_two>Separate the upper and lower jaws. How many teeth can you see? Why do you think this is?</stl_two>
+
+			<stl_three>Look at the front of the skull and not the form of the lower jaws.  Why do you think they are so delicate?</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+
+		<specimen name="beaver" id="9a46016fc7074e609b83421bdcc6c804">
+
+			<!-- Name of the Specimen -->
+			<title>Beaver</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Castor fiber</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/beaver.jpg</url>
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the order Eulipotyphla. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, and no living species native to the Americas (the extinct genus Amphechinus was once present in North America).
+
+				<br /><br />
+
+				Hedgehogs share distant ancestry with shrews (family Soricidae), with gymnures possibly being the intermediate link, and have changed little over the last 15 million years. Like many of the first mammals, they have adapted to a nocturnal way of life. Hedgehogs' spiny protection resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.
+
+				]]>
+			</introduction>
+
+			<stl_one>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age.</stl_one>
+
+			<stl_two>Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size.</stl_two>
+
+			<stl_three>They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+
+		<specimen name="curlew" id="9a46016fc7074e609b83421bdcc6c805">
+
+			<!-- Name of the Specimen -->
+			<title>Curlew</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Numenius arquata</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/curlew.jpg</url>
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the order Eulipotyphla. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, and no living species native to the Americas (the extinct genus Amphechinus was once present in North America).
+
+				<br /><br />
+
+				Hedgehogs share distant ancestry with shrews (family Soricidae), with gymnures possibly being the intermediate link, and have changed little over the last 15 million years. Like many of the first mammals, they have adapted to a nocturnal way of life. Hedgehogs' spiny protection resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.
+
+				]]>
+			</introduction>
+
+			<stl_one>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age.</stl_one>
+
+			<stl_two>Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size.</stl_two>
+
+			<stl_three>They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+
+		<specimen name="dog" id="9a46016fc7074e609b83421bdcc6c806">
+
+			<!-- Name of the Specimen -->
+			<title>Dog</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Canis lupus familiaris</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/dog.jpg</url>
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the order Eulipotyphla. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, and no living species native to the Americas (the extinct genus Amphechinus was once present in North America).
+
+				<br /><br />
+
+				Hedgehogs share distant ancestry with shrews (family Soricidae), with gymnures possibly being the intermediate link, and have changed little over the last 15 million years. Like many of the first mammals, they have adapted to a nocturnal way of life. Hedgehogs' spiny protection resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.
+
+				]]>
+			</introduction>
+
+			<stl_one>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age.</stl_one>
+
+			<stl_two>Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size.</stl_two>
+
+			<stl_three>They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+
+		<specimen name="dolphin" id="9a46016fc7074e609b83421bdcc6c807">
+
+			<!-- Name of the Specimen -->
+			<title>Dolphin</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Delphinidae</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/dolphin.jpg</url>
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the order Eulipotyphla. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, and no living species native to the Americas (the extinct genus Amphechinus was once present in North America).
+
+				<br /><br />
+
+				Hedgehogs share distant ancestry with shrews (family Soricidae), with gymnures possibly being the intermediate link, and have changed little over the last 15 million years. Like many of the first mammals, they have adapted to a nocturnal way of life. Hedgehogs' spiny protection resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.
+
+				]]>
+			</introduction>
+
+			<stl_one>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age.</stl_one>
+
+			<stl_two>Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size.</stl_two>
+
+			<stl_three>They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+
+		<specimen name="flamingo" id="9a46016fc7074e609b83421bdcc6c813">
+
+			<!-- Name of the Specimen -->
+			<title>Flamingo</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Phoenicopterus</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/flamingo.jpg</url>
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the order Eulipotyphla. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, and no living species native to the Americas (the extinct genus Amphechinus was once present in North America).
+
+				<br /><br />
+
+				Hedgehogs share distant ancestry with shrews (family Soricidae), with gymnures possibly being the intermediate link, and have changed little over the last 15 million years. Like many of the first mammals, they have adapted to a nocturnal way of life. Hedgehogs' spiny protection resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.
+
+				]]>
+			</introduction>
+
+			<stl_one>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age.</stl_one>
+
+			<stl_two>Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size.</stl_two>
+
+			<stl_three>They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+
+		<specimen name="hedgehog" id="9a46016fc7074e609b83421bdcc6c865">
+
+			<!-- Name of the Specimen -->
+			<title>Hedgehog</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Erinaceus europaeus</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/hedgehog.jpg</url>
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the order Eulipotyphla. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, and no living species native to the Americas (the extinct genus Amphechinus was once present in North America).
+
+				<br /><br />
+
+				Hedgehogs share distant ancestry with shrews (family Soricidae), with gymnures possibly being the intermediate link, and have changed little over the last 15 million years. Like many of the first mammals, they have adapted to a nocturnal way of life. Hedgehogs' spiny protection resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.
+
+				]]>
+			</introduction>
+
+			<stl_one>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age.</stl_one>
+
+			<stl_two>Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size.</stl_two>
+
+			<stl_three>They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+
+		<specimen name="lion" id="9a46016fc7074e609b83421bdcc6c808">
+
+			<!-- Name of the Specimen -->
+			<title>Lion</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Panthera Leo</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/lion.jpg</url>
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the order Eulipotyphla. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, and no living species native to the Americas (the extinct genus Amphechinus was once present in North America).
+
+				<br /><br />
+
+				Hedgehogs share distant ancestry with shrews (family Soricidae), with gymnures possibly being the intermediate link, and have changed little over the last 15 million years. Like many of the first mammals, they have adapted to a nocturnal way of life. Hedgehogs' spiny protection resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.
+
+				]]>
+			</introduction>
+
+			<stl_one>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age.</stl_one>
+
+			<stl_two>Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size.</stl_two>
+
+			<stl_three>They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+
+		<specimen name="sheep" id="9a46016fc7074e609b83421bdcc6c809">
+
+			<!-- Name of the Specimen -->
+			<title>Sheep</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Ovis ares</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/sheep.jpg</url>
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the order Eulipotyphla. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, and no living species native to the Americas (the extinct genus Amphechinus was once present in North America).
+
+				<br /><br />
+
+				Hedgehogs share distant ancestry with shrews (family Soricidae), with gymnures possibly being the intermediate link, and have changed little over the last 15 million years. Like many of the first mammals, they have adapted to a nocturnal way of life. Hedgehogs' spiny protection resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.
+
+				]]>
+			</introduction>
+
+			<stl_one>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age.</stl_one>
+
+			<stl_two>Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size.</stl_two>
+
+			<stl_three>They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+
+		<specimen name="tarsier" id="9a46016fc7074e609b83421bdcc6c810">
+
+			<!-- Name of the Specimen -->
+			<title>Tarsier</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Carlito syrinchta</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/tarsier.jpg</url>
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the order Eulipotyphla. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, and no living species native to the Americas (the extinct genus Amphechinus was once present in North America).
+
+				<br /><br />
+
+				Hedgehogs share distant ancestry with shrews (family Soricidae), with gymnures possibly being the intermediate link, and have changed little over the last 15 million years. Like many of the first mammals, they have adapted to a nocturnal way of life. Hedgehogs' spiny protection resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.
+
+				]]>
+			</introduction>
+
+			<stl_one>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age.</stl_one>
+
+			<stl_two>Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size.</stl_two>
+
+			<stl_three>They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+
+		<specimen name="thylacine" id="9a46016fc7074e609b83421bdcc6c811">
+
+			<!-- Name of the Specimen -->
+			<title>Thylacine</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Thylacinus cynocephalus</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/thylacine.jpg</url>
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the order Eulipotyphla. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, and no living species native to the Americas (the extinct genus Amphechinus was once present in North America).
+
+				<br /><br />
+
+				Hedgehogs share distant ancestry with shrews (family Soricidae), with gymnures possibly being the intermediate link, and have changed little over the last 15 million years. Like many of the first mammals, they have adapted to a nocturnal way of life. Hedgehogs' spiny protection resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.
+
+				]]>
+			</introduction>
+
+			<stl_one>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age.</stl_one>
+
+			<stl_two>Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size.</stl_two>
+
+			<stl_three>They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+
+		<specimen name="turtle" id="9a46016fc7074e609b83421bdcc6c812">
+
+			<!-- Name of the Specimen -->
+			<title>Turtle</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Testudines</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/turtle.jpg</url>
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				A hedgehog is any of the spiny mammals of the subfamily Erinaceinae, in the order Eulipotyphla. There are seventeen species of hedgehog in five genera, found through parts of Europe, Asia, and Africa, and in New Zealand by introduction. There are no hedgehogs native to Australia, and no living species native to the Americas (the extinct genus Amphechinus was once present in North America).
+
+				<br /><br />
+
+				Hedgehogs share distant ancestry with shrews (family Soricidae), with gymnures possibly being the intermediate link, and have changed little over the last 15 million years. Like many of the first mammals, they have adapted to a nocturnal way of life. Hedgehogs' spiny protection resembles that of the unrelated porcupines, which are rodents, and echidnas, a type of monotreme.
+
+				]]>
+			</introduction>
+
+			<stl_one>The adult dentition includes a total of 36 teeth, dental formula I3/2, C 1/1, P 3/2, M 3/3. The deciduous dentition includes 24 teeth; these are shed by 3-4 months of age.</stl_one>
+
+			<stl_two>Dental abnormalities are not uncommon in Britain and may be particularly common in the population in New Zealand. The eyes are bright black and of moderate size.</stl_two>
+
+			<stl_three>They are neither enlarged for acute nocturnal vision nor reduced in size. They are normally somewhat prominent. Hoglet neonates are born with their eyes sealed closed.</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+
+
+	</collection>
+
+	<collection name="skulls" id="7ab25b486b0a4219813b71912f081077">
+
+		<specimen name="albatross" id="9a46016fc7074e609b83421bdcc6c802">
+
+			<!-- Name of the Specimen -->
+			<title>Albatross</title>
+
+			<!-- Latin name (ie Genus/species) -->
+			<subtitle>Diomedeidae</subtitle>
+
+			<!-- Photograph of specimen (leave URLs empty if there are no image to be put, please place all images in the /img folder) -->
+			<image height="300" width="700">
+				<url>../img/albatross.jpg</url>
+			</image>
+
+			<!-- In this introductory description, only text accepted, hyper-links will not work. Line-breaks do not display and are ignored -->
+			<introduction>
+				<![CDATA[
+
+				Albatrosses are large sea birds found in the Southern Oceans. One species, the Wandering Albatross, has the widest wing span of all birds – in excess of 3 metres (12 ft). They use these long, narrow wings to glide and fly efficiently during long-distance journeys over oceans. During these flights they alight on the sea to catch squid and fish. Inevitably, sea water is also ingested and the excess salt has to be secreted.  Salty secretions are formed in two nasal salt glands which are found in elongate depressions in the skull bone above each eye.
+
+				<br /><br />
+
+				Albatrosses can fly long distances, up to 16,000 km (10,000 miles) without alighting on land. They fly into the wind and angle the wings to gain height, then turn and swoop rapidly down for up to 100m.
+
+				<br /><br />
+
+				Albatrosses come to land to breed, generally on small, remote islands.  Prolonged courtship displays result in pair bonds that may last many years. Pairs nest in dense colonies and both parents incubate the single egg in turns for up to 80 days and it may take nearly a year before the single young fledges.
+
+				]]>
+			</introduction>
+
+			<stl_one>Look the skull from the side, especially note the shape of the beak.  Why do you think it is the shape it is?</stl_one>
+
+			<stl_two>Bisect the skull to see the space taken by the brain.  Why do you think these birds need large brains?</stl_two>
+
+			<stl_three>The salt glands open onto the front of the skull. Can you identify the tubular openings.</stl_three>
+
+			<dicom_description></dicom_description>
+
+		</specimen>
+	</collection>
+
+
+
+</museum>
