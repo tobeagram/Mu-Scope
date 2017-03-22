@@ -387,10 +387,10 @@ $(document).ready(function(){
         compatibilitycheck: null,
         backgroundColor: "#222C36",
         splashStyle: "Light",
-        dataUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/"+stl_export_filename+".datagz",
-        codeUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/"+stl_export_filename+".jsgz",
-        asmUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/"+stl_export_filename+".asm.jsgz",
-        memUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/"+stl_export_filename+".memgz",
+        dataUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/"+stl_export_filename+".data",
+        codeUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/"+stl_export_filename+".js",
+        asmUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/"+stl_export_filename+".asm.js",
+        memUrl: "../stl/<?php echo $specimen_data[$specimen_id]['specimen_id']; ?>/Release/"+stl_export_filename+".mem",
       };
       
     }
