@@ -28,6 +28,10 @@ In order to achieve a very crisp and clean 3D model from a Computed Tomography S
 - **[Blender](https://www.blender.org)**, used to fill in holes and edit the co-ordinate origin of the specimen.
 - **[Unity](http://unity3d.com)**, added lighting, and a custom texture to the specimen. A user interface and the ability to interact with the model created by Dr James Housden was also included. This package is then exported and drag and dropped into the website directory.
 
+#### Further Instructions #### 
+To add a new collection (March 2017): 
+- Add the collection's XML file under ```XML``` folder. This file should be called with exactly the same name as the collection. 
+- Edit the index.php file to include the new collection name
 
 ## Acknowledgments
 <b>Written and Designed by Tobias Whetton</b> over the course of three months. This wouldn’t have been possible without the help and expertise of: 
